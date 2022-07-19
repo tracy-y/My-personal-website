@@ -170,28 +170,29 @@ ol li a {
     background-size: cover;
 }
 
+@media (min-width: 935px) {
+    .bottom {
+        display: grid;
+        grid-template-columns: 2fr 2.5fr;
+        column-gap: 30px;
+    }
+}
+
 ul {
     margin-top: 0;
 }
 
-.education-wrapper {
+.education {
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 50px;
   max-width: 950px;
 }
 
-skills-wrapper {
+.skills {
     display: block;
     padding-bottom: 30px;
 }
 
-@media (min-width: 935px) {
-    .skills-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 2.5fr;
-        column-gap: 30px;
-    }
-}
 
 /* Footer */
 footer {
