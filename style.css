@@ -82,6 +82,7 @@ h1 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    box-shadow: 0 0 30px 15px #151938;
 }
 
 @media (min-width: 440px) {
@@ -119,14 +120,15 @@ h1 {
 
 /* work */
 .work-experience {
-    padding-top:0 auto;
+    padding: 0 auto;
     background-color: #EDF2F4;
 }
 
 .work-wrapper {
     margin: 0 auto;
-    padding: 0 30px;
+    padding-top: 0 30px;
     max-width: 950px;
+    
 }
 
 .job-wrapper {
@@ -161,8 +163,72 @@ ol li a {
     color: rgb(14, 14, 247);
 }
 
+/* bottom (include education and technical skills) */
 .bottom {
-    padding: 40px 0;
-    background: linear-gradient(rgba(141,153,174,0.9),rgba(141,153,174,0.7)), url(.\assets\96eefb235c57bcb649aa3c156a311fdd.jpeg) no-repeat fixed;
+    padding: 40px 20px;
+    background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(141, 153, 174, 0.6)), url(./assets/banner.jpg) no-repeat fixed;
     background-size: cover;
 }
+
+ul {
+    margin-top: 0;
+}
+
+.education-wrapper {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 950px;
+}
+
+skills-wrapper {
+    display: block;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 935px) {
+    .skills-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        column-gap: 30px;
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #2B2D42;
+    color: #8D99AE;
+}
+
+.contact-wrap {
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 900px;
+}
+
+.contact-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.media-pic {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: #8099AE solid 2px;
+}
+
+.media-pic:hover {
+    transform: scale(1.1);
+}
+
+p+h3{
+    margin-top: 30px;
+}
+
+footer p {
+    margin-top: 50px;
+}
+
+

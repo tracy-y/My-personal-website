@@ -14,13 +14,14 @@
    <!-- intro -->
    <header>
      <nav>
-        <a href="">About Me</a>
-        <a href="">Work Experience</a>
-        <a href="">Education</a>
-        <a href="">Contact</a>
+        <a href="about">About Me</a>
+        <a href="work-experience">Work Experience</a>
+        <a href="education">Education</a>
+        <a href="skills">Skills</a>
+        <a href="contact">Contact</a>
      </nav>
-     <div class="content-wrap">
-        <img class="profile-img" src="./assets/.png" alt="profile picture">
+     <div id="about" class="content-wrap">
+        <img class="profile-img" src=".\assets\Tracey's photo.jpg" alt="profile picture">
         <div class="col-wide">
             <h1>Tracey Yan</h1>
             <h2>Front-End Developer</h2>
@@ -61,9 +62,9 @@
                     <p><em><u>Highlighted Project Lists:</u></em></p>
                     <p>JavaScript React Projects (responsive):</p>
                     <ol>
-                        <li><a href="https://github.com/tracy-y/My-dashboard-project">My dashboard project</a></li>
-                        <li><a href="https://github.com/tracy-y/My-personal-website">My personal website</a></li>
-                        <li><a href="https://github.com/tracy-y/weather-project">Weather forecast project</a></li>
+                        <li><a href="https://github.com/tracy-y/My-dashboard-project">My dashboard project</a> Link: <a href="https://tracey-dashboardproject.netlify.app/"></a></li>
+                        <li><a href="https://github.com/tracy-y/My-personal-website">My personal website</a>Link: <a href="https://"></a></li>
+                        <li><a href="https://github.com/tracy-y/weather-project">Weather forecast project</a>Link: <a href="https://"></a></li>
                        
                     </ol>
             </div>
@@ -103,37 +104,47 @@
     </div>
     </section>
     <!-- bottom part -->
-    <section class="bottom">
+    <section id="bottom" class="bottom">
       <!-- Education -->
-    <div id="education" class="education">
+      <section id="education" class="education>
         <div class="education-wrapper">
             <h2>Education</h2>
-         <!-- school 1 -->
-         <h3>Sichuan Agricultural University</h3>
-         <p>E-Commerce | Management Bachelor’s Degree </p>
-        </div>
-    </div>
-    
-    <div>
-        <!-- Technical skills -->
-        <div id="technical-skills" class="technical-skills">
-            <div class="technical-skills-wrapper">
-                <h2>Technical Skills</h2>
-                <ul>
-                    <li>Front-end Languages and framework: React, Redux, JavaScript (ES6), Sass, HTML5, CSS3</li>
-                    <li>Front-end packages: Bootstrap, Material UI, Ant Design, Style Component, Animation CSS</li>
-                    <li>Back-end languages and packages: Node.js, Express</li>
-                    <li>Database: Docker MySQL, MongoDB</li>
-                    <li>Deploy: AWS</li>
-                    <li>Version Control: Git, GitHub, npm, yarn</li>
-                    <li>Methodologies: Agile, Scrum, Sprint</li>
-                    <li>Develops Tool& Platforms: Postman, Figma</li>
-                    <li>Other: Photoshop / Microsoft Office (Word, Excel, PowerPoint)</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+            <h3>Sichuan Agricultural University</h3>
+            <p>E-Commerce | Management Bachelor's Degree </p>
+           </div>   
+      </section>
+       <!-- Technical skills -->
+
+      <section  id="skills" class="skills">
+ <div class="skills-wrapper">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Front-end Languages and framework: React, Redux, JavaScript (ES6), Sass, HTML5, CSS3</li>
+        <li>Front-end packages: Bootstrap, Material UI, Ant Design, Style Component, Animation CSS</li>
+        <li>Back-end languages and packages: Node.js, Express</li>
+        <li>Database: Docker MySQL, MongoDB</li>
+        <li>Deploy: AWS</li>
+        <li>Version Control: Git, GitHub, npm, yarn</li>
+        <li>Methodologies: Agile, Scrum, Sprint</li>
+        <li>Develops Tool& Platforms: Postman, Figma</li>
+        <li>Other: Photoshop / Microsoft Office (Word, Excel, PowerPoint)</li>
+    </ul>
+</div>
+      </section>       
     </section>
 
+    <!-- footer & contact info -->
+    <footer id="contact" >
+     <div class="contact-wrap">
+      <h2>Let's keep in touch</h2>
+      <div class="contact-buttons">
+        <a href="https://github.com/tracy-y" target="_blank" rel=""><img src="./assets/github.png" /></a>
+        <a href="https://www.linkedin.com/in/tracey-yan-9b0381174/" target="_blank" rel=""><img src="./assets/linkin.png"/></a>
+        <a href="tracy.yan2018@gmail.com" target="_blank" rel=""><img src="./assets/email.jpg"/></a>
+
+      </div>
+     </div> 
+
+    </footer>
 </main>
 </html>
