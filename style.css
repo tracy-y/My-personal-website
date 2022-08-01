@@ -2,11 +2,13 @@
 /* Global styles */
 body {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
 }
 
 h1, h2 {
     font-family: 'caveat', cursive;
     font-weight: 400;
+    line-height: normal;
 }
 h1 {
     font-size: 80px;
@@ -50,12 +52,16 @@ header {
     position: relative;
     padding-top: 50px;
     text-align: center;
-    background-color: #2B2D42;
-    color: #8099AE;
+    background-color: #88b2aa;
+    color: #EDF3E9;
 }
 
 header h1, header h2 {
     color: #EDF2F4;
+}
+
+header p {
+    color: #136556;
 }
 
 h1 {
@@ -82,7 +88,7 @@ h1 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    box-shadow: 0 0 30px 15px #151938;
+    box-shadow: 0 0 30px 15px #88b2aa;
 }
 
 @media (min-width: 440px) {
@@ -166,7 +172,7 @@ ol li a {
 /* bottom (include education and technical skills) */
 .bottom {
     padding: 40px 20px;
-    background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(141, 153, 174, 0.6)), url(./assets/banner.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(249, 250, 246, 0.9), rgba(230, 231, 217, 0.6)), url(./assets/banner.jpg) no-repeat fixed;
     background-size: cover;
 }
 
@@ -197,8 +203,8 @@ ul {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #2B2D42;
-    color: #8D99AE;
+    background-color:#88b2aa;
+    color: #021c17;
 }
 
 .contact-wrap {
