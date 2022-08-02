@@ -13,7 +13,7 @@ h1, h2 {
 h1 {
     font-size: 80px;
 }
-he {
+h2 {
     font-size: 40px;
     margin-top:0;
 }
@@ -73,7 +73,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  padding: 60px 50px;
+  padding: 30px 50px;
   max-width: 950px;
   overflow: hidden;
 }
@@ -172,7 +172,7 @@ ol li a {
 /* bottom (include education and technical skills) */
 .bottom {
     padding: 40px 20px;
-    background: linear-gradient(rgba(249, 250, 246, 0.9), rgba(230, 231, 217, 0.6)), url(./assets/banner.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(253, 253, 253, 0.9), rgba(230, 231, 217, 0.6)), url(./assets/banner.jpg) no-repeat fixed;
     background-size: cover;
 }
 
